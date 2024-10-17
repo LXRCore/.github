@@ -1,7 +1,7 @@
 # Welcome to LXRCore RedM Framework 👋
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)  
-![Build](https://img.shields.io/badge/Build-Stable-blue) 
+![Build](https://img.shields.io/badge/Build-Stable-blue)
 ![Framework](https://img.shields.io/badge/Framework-LXRCore-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)  
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange)  
