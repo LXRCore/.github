@@ -1,4 +1,4 @@
-# Welcome to LXRCore RedM Framework 👋
+# Welcome to LXRCore RedM Framework   
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)  
 ![Build](https://img.shields.io/badge/Build-Stable-blue)
