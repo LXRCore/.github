@@ -23,14 +23,6 @@
 
 ---
 
-## 🏆 Awards & Achievements
-
-🏅 **Top RedM Framework of 2024** – Recognized for our innovation and commitment to quality.  
-🥇 **Community Choice Award** – Voted as one of the most popular RedM frameworks by our user base.  
-💎 **5-Star Performance** – Rated highly for optimization and ease of use by server owners globally.
-
----
-
 ## 🤝 Contributing
 
 We’re thrilled to have you interested in contributing to **LXRCore**! Here's how you can get involved:
@@ -45,7 +37,7 @@ We value all contributions, no matter how big or small, and we’re always excit
 ## 📚 Documentation & Resources
 
 For in-depth documentation, examples, and usage guides, check out the following resources:
-- 📖 **Official Docs**: [LXRCore Documentation](https://lxrcore.likeaking.pro)
+- 📖 **Official Docs**: [LXRCore Documentation](https://www.lxrcore.com)
 - 📂 **GitHub Projects**: [Explore Our Repos](https://github.com/LXRCore)
 - 💬 **Join Our Discord**: [LXRCore Community](https://discord.gg/5DGEv4kK7Q)
 
