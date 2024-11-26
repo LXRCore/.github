@@ -53,7 +53,7 @@ For in-depth documentation, examples, and usage guides, check out the following 
 ## 🔥 Stay Connected with LXRCore
 
 🌐 **Website**: [LXRCore Official Website](https://www.lxrcore.com)  
-🗣️ **Discord**: [Join Our Community](https://discord.gg/5DGEv4kK7Q)  
+🗣️ **Discord**: [LXRCore Community](https://discord.gg/GAhk8cgXe9)   
 🐙 **GitHub**: [LXRCore GitHub](https://github.com/LXRCore)
 
 ---
