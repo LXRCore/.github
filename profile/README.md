@@ -38,7 +38,7 @@ We value all contributions, no matter how big or small, and we’re always excit
 For in-depth documentation, examples, and usage guides, check out the following resources:
 - 📖 **Official Docs**: [LXRCore Documentation](https://www.lxrcore.com)
 - 📂 **GitHub Projects**: [Explore Our Repos](https://github.com/LXRCore)
-- 💬 **Join Our Discord**: [LXRCore Community](https://discord.gg/5DGEv4kK7Q)
+- 💬 **Join Our Discord**: [LXRCore Community](https://discord.gg/GAhk8cgXe9) 
 
 ---
 
