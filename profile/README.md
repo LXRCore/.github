@@ -1,61 +1,161 @@
-# Welcome to LXRCore RedM Framework   ©
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)  
+---
+
+# 🌐 Welcome to **LXRCore RedM Framework** ©
+
+![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
 ![Build](https://img.shields.io/badge/Build-Stable-blue)
 ![Framework](https://img.shields.io/badge/Framework-LXRCore-blue)
-![License](https://img.shields.io/badge/License-MIT-green)  
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange)  
-![Platform](https://img.shields.io/badge/Platform-RedM-black)  
-![Awesome](https://img.shields.io/badge/Made%20with%20❤️%20by-iBoss-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+![Platform](https://img.shields.io/badge/Platform-RedM-black)
+![Made with ❤️](https://img.shields.io/badge/Made%20with%20❤️%20by-iBoss-purple)
 
 ---
 
-🌟 **LXRCore** is an advanced, modular, and high-performance framework designed to elevate your RedM server with unparalleled flexibility and customization options. With a focus on smooth gameplay and scalability, LXRCore empowers developers and server owners to create deeply immersive, roleplay-rich environments.
+## ✨ Introduction
+
+**LXRCore** is a **next-generation RedM framework** that blends **performance, modularity, and developer-friendliness**.
+It’s the foundation of **immersive RP experiences** designed for **scalable servers** with **hundreds of players**.
+
+With a strong emphasis on **clean APIs**, **plug-and-play modules**, and **security**, LXRCore empowers developers to focus on gameplay instead of reinventing the core systems.
+
+> ⚡ Whether you’re building a lightweight RP server or a fully-featured economy ecosystem, LXRCore is your ultimate toolkit.
 
 ---
 
-## 🚀 What Makes LXRCore Unique?
+## 📑 Table of Contents
 
-🏗️ **Modular & Customizable**: Build your server your way. LXRCore is designed with modular components like **LXR-Hunting**, **LXR-Farming**, and more to easily extend your gameplay features.  
-⚡ **Performance Optimized**: High-efficiency code ensures minimal impact on server performance while maintaining rich features.  
-🛠️ **Easy to Configure**: Whether you're a seasoned developer or new to server management, LXRCore is built to be easily configurable to suit any server’s needs.  
-🌐 **Community-Driven**: We actively listen to feedback and feature requests to ensure LXRCore continues to grow with the needs of its users. Your input matters!
+* [🚀 Features](#-features)
+* [⚙️ Quick Start](#️-quick-start)
+* [📚 Documentation](#-documentation)
+* [🛠 Developer API](#-developer-api)
+* [🤝 Contributing](#-contributing)
+* [📂 Resources](#-resources)
+* [👨‍💻 Fun Facts](#-fun-facts)
+* [🔥 Stay Connected](#-stay-connected)
+
+---
+
+## 🚀 Features
+
+🏗️ **Modular Design** – Drop-in modules like `lxr-hunting`, `lxr-farming`, `lxr-delivery`, and more.
+⚡ **Optimized Performance** – Handles 300+ players with minimal overhead.
+🔌 **Clean API** – Simple and consistent exports for all developers.
+🎒 **Inventory + Items** – Metadata support, usable items, add/remove with callbacks.
+📢 **Notifications** – Unified notify system for client and server.
+🌍 **Localization** – Multi-language support with dynamic variable injection.
+🔒 **Secure & Reliable** – Built-in validation and anti-exploit logic.
+🛠 **Customizable** – Easily expand into jobs, crafting, economy, housing, and more.
+👥 **Community-Driven** – Built with direct feedback from RedM developers and roleplayers.
+
+---
+
+## ⚙️ Quick Start
+
+Clone into your `resources/` folder:
+
+```bash
+git clone https://github.com/yourname/lxrcore.git
+```
+
+Add to your **server.cfg**:
+
+```cfg
+ensure lxrcore
+```
+
+Access the core in your scripts:
+
+```lua
+local LXRCore = exports['lxrcore']:GetCoreObject()
+```
+
+✅ Done. You can now build on **LXRCore**.
+
+---
+
+## 📚 Documentation
+
+Check the **developer docs** to explore:
+
+* API usage
+* Examples for usable items
+* Server ↔ client callbacks
+* Inventory and player data integration
+
+📖 [LXRCore Docs](https://www.lxrcore.com)
+
+---
+
+## 🛠 Developer API
+
+**Register Usable Item**
+
+```lua
+LXRCore.Functions.RegisterUsableItem("bread", function(data)
+    LXRCore.Functions.RemoveItem(data.source, "bread", 1)
+    Notify({ source = data.source, text = "You ate bread.", time = 4000, type = "success" })
+end)
+```
+
+**Trigger Callback**
+
+```lua
+LXRCore.Functions.TriggerServerCallback("GetPlayerStats", function(stats)
+    print("Cash: " .. stats.cash)
+end)
+```
+
+**Progress Bar**
+
+```lua
+LXRCore.Functions.Progress("Crafting...", 5000, function()
+    print("Done crafting!")
+end)
+```
+
+👉 Full API reference is in [`lxrcore.lua`](./lxrcore.lua).
 
 ---
 
 ## 🤝 Contributing
 
-We’re thrilled to have you interested in contributing to **LXRCore**! Here's how you can get involved:
-1. **Fork this repository** and create your feature branch.
-2. **Submit a pull request** with your improvements or bug fixes.
-3. Engage with us in discussions by reviewing open [issues](https://github.com/LXRCore/issues).
+We ❤️ community contributions. Here’s how to help:
 
-We value all contributions, no matter how big or small, and we’re always excited to work with the RedM community to make LXRCore even better.
+1. Fork the repo
+2. Create your branch: `feature/my-feature`
+3. Commit with clear messages
+4. Submit a PR
 
----
-
-## 📚 Documentation & Resources
-
-For in-depth documentation, examples, and usage guides, check out the following resources:
-- 📖 **Official Docs**: [LXRCore Documentation](https://www.lxrcore.com)
-- 📂 **GitHub Projects**: [Explore Our Repos](https://github.com/LXRCore)
-- 💬 **Join Our Discord**: [LXRCore Community](https://discord.gg/GAhk8cgXe9) 
+Check our [issues](https://github.com/LXRCore/issues) for tasks to pick up.
 
 ---
 
-## 👨‍💻 LXRCore Fun Facts
+## 📂 Resources
 
-- ☕ **Powered by Coffee and Innovation**: We believe great code comes from a combination of hard work and caffeine!
-- 🌍 **Inspired by Georgian Heritage**: Our framework is built with pride and creativity, drawing on influences from our rich cultural roots.
-- 🎮 **Built for Immersion**: LXRCore is all about creating rich, immersive roleplay experiences that push the boundaries of what’s possible in RedM.
-
----
-
-## 🔥 Stay Connected with LXRCore
-
-🌐 **Website**: [LXRCore Official Website](https://www.lxrcore.com)  
-🗣️ **Discord**: [LXRCore Community](https://discord.gg/GAhk8cgXe9)   
-🐙 **GitHub**: [LXRCore GitHub](https://github.com/LXRCore)
+* 🌐 [Official Website](https://www.lxrcore.com)
+* 🗣️ [Discord Community](https://discord.gg/GAhk8cgXe9)
+* 🐙 [GitHub Repos](https://github.com/LXRCore)
 
 ---
 
-With **LXRCore**, the future of RedM roleplay is in your hands. Let's build something legendary together! 🚀
+## 👨‍💻 Fun Facts
+
+☕ **Fueled by Coffee** – Our commits are 70% code, 30% caffeine.
+🌍 **Cultural Roots** – Inspired by Georgian creativity & resilience.
+🎮 **Immersion First** – Every line of code is written to support deeper RP experiences.
+
+---
+
+## 🔥 Stay Connected
+
+🌐 **Website** → [lxrcore.com](https://www.lxrcore.com)
+🗣️ **Discord** → [Community Invite](https://discord.gg/GAhk8cgXe9)
+🐙 **GitHub** → [Explore Repos](https://github.com/LXRCore)
+
+---
+
+💡 With **LXRCore**, you’re not just running a framework – you’re building the **future of RedM roleplay**.
+Let’s create something legendary 🚀
+
+---
