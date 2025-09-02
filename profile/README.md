@@ -55,7 +55,7 @@ With a strong emphasis on **clean APIs**, **plug-and-play modules**, and **secur
 Clone into your `resources/` folder:
 
 ```bash
-git clone https://github.com/yourname/lxrcore.git
+git clone https://github.com/lxrcore/lxrcore.git
 ```
 
 Add to your **server.cfg**:
