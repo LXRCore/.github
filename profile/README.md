@@ -1,52 +1,90 @@
 ---
 
-# 🌐 Welcome to **LXRCore RedM Framework** ©
+<!--
+    ██╗     ██╗  ██╗██████╗        ██████╗ ██████╗ ██████╗ ███████╗
+    ██║     ╚██╗██╔╝██╔══██╗      ██╔════╝██╔═══██╗██╔══██╗██╔════╝
+    ██║      ╚███╔╝ ██████╔╝█████╗██║     ██║   ██║██████╔╝█████╗
+    ██║      ██╔██╗ ██╔══██╗╚════╝██║     ██║   ██║██╔══██╗██╔══╝
+    ███████╗██╔╝ ██╗██║  ██║      ╚██████╗╚██████╔╝██║  ██║███████╗
+    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝       ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+    🐺 LXRCore — The Land of Wolves RedM Framework
+
+    ═══════════════════════════════════════════════════════════════════════════════
+    SERVER INFORMATION
+    ═══════════════════════════════════════════════════════════════════════════════
+
+    Server:      The Land of Wolves 🐺
+    Developer:   iBoss21 / The Lux Empire
+    Website:     https://www.wolves.land
+    Discord:     https://discord.gg/CrKcWdfd3A
+    Store:       https://theluxempire.tebex.io
+
+    © 2026 iBoss21 / The Lux Empire | wolves.land | All Rights Reserved
+    ═══════════════════════════════════════════════════════════════════════════════
+-->
+
+# 🐺 Welcome to **LXRCore** — The Land of Wolves RedM Framework
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
 ![Build](https://img.shields.io/badge/Build-Stable-blue)
 ![Framework](https://img.shields.io/badge/Framework-LXRCore-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+![License](https://img.shields.io/badge/License-Tebex%20Escrow-orange)
 ![Platform](https://img.shields.io/badge/Platform-RedM-black)
-![Made with ❤️](https://img.shields.io/badge/Made%20with%20❤️%20by-iBoss-purple)
+![Server](https://img.shields.io/badge/Server-The%20Land%20of%20Wolves%20🐺-darkred)
+![Made with ❤️](https://img.shields.io/badge/Made%20with%20❤️%20by-iBoss21-purple)
+![Store](https://img.shields.io/badge/Store-theluxempire.tebex.io-green)
 
 ---
 
 ## ✨ Introduction
 
-**LXRCore** is a **next-generation RedM framework** that blends **performance, modularity, and developer-friendliness**.
-It’s the foundation of **immersive RP experiences** designed for **scalable servers** with **hundreds of players**.
+**LXRCore** is the **production-grade RedM framework** powering *The Land of Wolves* — a whitelisted, serious hardcore roleplay server set in the late 19th-century American frontier.
 
-With a strong emphasis on **clean APIs**, **plug-and-play modules**, and **security**, LXRCore empowers developers to focus on gameplay instead of reinventing the core systems.
+Built by **iBoss21 / The Lux Empire**, LXRCore blends **performance, modularity, and developer-friendliness** to deliver immersive RP experiences that scale to hundreds of players. Every resource ships **Tebex escrow compliant** and follows the wolves.land codebase standard.
 
-> ⚡ Whether you’re building a lightweight RP server or a fully-featured economy ecosystem, LXRCore is your ultimate toolkit.
+> 🐺 Whether you're building a lightweight RP server or a fully-featured frontier economy, LXRCore is your ultimate toolkit.
 
 ---
 
 ## 📑 Table of Contents
 
 * [🚀 Features](#-features)
+* [🌐 Framework Support](#-framework-support)
 * [⚙️ Quick Start](#️-quick-start)
 * [📚 Documentation](#-documentation)
 * [🛠 Developer API](#-developer-api)
 * [🤝 Contributing](#-contributing)
-* [📂 Resources](#-resources)
-* [👨‍💻 Fun Facts](#-fun-facts)
 * [🔥 Stay Connected](#-stay-connected)
 
 ---
 
 ## 🚀 Features
 
-🏗️ **Modular Design** – Drop-in modules like `lxr-hunting`, `lxr-farming`, `lxr-delivery`, and more.
-⚡ **Optimized Performance** – Handles 300+ players with minimal overhead.
-🔌 **Clean API** – Simple and consistent exports for all developers.
-🎒 **Inventory + Items** – Metadata support, usable items, add/remove with callbacks.
+🏗️ **Modular Design** – Drop-in modules: `lxr-hunting`, `lxr-farming`, `lxr-delivery`, `lxr-proploot`, and more.
+⚡ **Optimized Performance** – Handles 300+ players with minimal server overhead and client FPS impact.
+🔌 **Clean API** – Simple and consistent exports for all developers, across all supported frameworks.
+�� **Inventory + Items** – Metadata support, usable items, add/remove with callbacks.
 📢 **Notifications** – Unified notify system for client and server.
 🌍 **Localization** – Multi-language support with dynamic variable injection.
-🔒 **Secure & Reliable** – Built-in validation and anti-exploit logic.
+🔒 **Secure & Reliable** – Built-in validation, anti-exploit logic, and runtime resource-name protection.
 🛠 **Customizable** – Easily expand into jobs, crafting, economy, housing, and more.
 👥 **Community-Driven** – Built with direct feedback from RedM developers and roleplayers.
+🛒 **Tebex Escrow Compliant** – All paid assets are escrow-ready and sold through [theluxempire.tebex.io](https://theluxempire.tebex.io).
+
+---
+
+## 🌐 Framework Support
+
+| Priority | Framework | Status |
+|---|---|---|
+| 1 | **LXR-Core** | ✅ Primary |
+| 2 | **RSG-Core** | ✅ Primary |
+| 3 | **VORP Core** | ✅ Supported |
+| 4 | RedEM:RP | 🔵 Optional |
+| 5 | QBR-Core | 🔵 Optional |
+| 6 | QR-Core | 🔵 Optional |
+| 7 | Standalone | ⚪ Fallback |
 
 ---
 
@@ -78,12 +116,13 @@ local LXRCore = exports['lxrcore']:GetCoreObject()
 
 Check the **developer docs** to explore:
 
-* API usage
-* Examples for usable items
+* API usage and examples
+* Usable items & inventory integration
 * Server ↔ client callbacks
-* Inventory and player data integration
+* Multi-framework event naming conventions
+* Tebex escrow compliance guidelines
 
-📖 [LXRCore Docs](https://www.lxrcore.com)
+📖 [wolves.land Documentation](https://www.wolves.land)
 
 ---
 
@@ -114,48 +153,36 @@ LXRCore.Functions.Progress("Crafting...", 5000, function()
 end)
 ```
 
-👉 Full API reference is in [`lxrcore.lua`](./lxrcore.lua).
-
 ---
 
 ## 🤝 Contributing
 
-We ❤️ community contributions. Here’s how to help:
+We ❤️ community contributions. Here's how to help:
 
 1. Fork the repo
 2. Create your branch: `feature/my-feature`
 3. Commit with clear messages
 4. Submit a PR
 
-Check our [issues](https://github.com/LXRCore/issues) for tasks to pick up.
-
----
-
-## 📂 Resources
-
-* 🌐 [Official Website](https://www.lxrcore.com)
-* 🗣️ [Discord Community](https://discord.gg/GAhk8cgXe9)
-* 🐙 [GitHub Repos](https://github.com/LXRCore)
-
----
-
-## 👨‍💻 Fun Facts
-
-☕ **Fueled by Coffee** – Our commits are 70% code, 30% caffeine.
-🌍 **Cultural Roots** – Inspired by Georgian creativity & resilience.
-🎮 **Immersion First** – Every line of code is written to support deeper RP experiences.
+Check our [issues](https://github.com/LXRCore/.github/issues) for tasks to pick up.
 
 ---
 
 ## 🔥 Stay Connected
 
-🌐 **Website** → [lxrcore.com](https://www.lxrcore.com)
-🗣️ **Discord** → [Community Invite](https://discord.gg/GAhk8cgXe9)
-🐙 **GitHub** → [Explore Repos](https://github.com/LXRCore)
+| | |
+|---|---|
+| 🌐 **Website** | [wolves.land](https://www.wolves.land) |
+| 🗣️ **Discord** | [discord.gg/CrKcWdfd3A](https://discord.gg/CrKcWdfd3A) |
+| 🛒 **Store** | [theluxempire.tebex.io](https://theluxempire.tebex.io) |
+| 🐙 **GitHub** | [github.com/LXRCore](https://github.com/LXRCore) |
+| 👤 **Developer** | [github.com/iboss21](https://github.com/iboss21) |
 
 ---
 
-💡 With **LXRCore**, you’re not just running a framework – you’re building the **future of RedM roleplay**.
-Let’s create something legendary 🚀
+> 🐺 *With **LXRCore**, you're not just running a framework — you're building the future of RedM roleplay on The Land of Wolves.*
+> Let's create something legendary 🚀
 
 ---
+
+> © 2026 iBoss21 / The Lux Empire | [wolves.land](https://www.wolves.land) | All Rights Reserved

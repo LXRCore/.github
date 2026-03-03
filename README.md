@@ -1,42 +1,90 @@
-## LXRCore RedM Framework Knowledge File
+## LXRCore RedM Framework — Knowledge File
+
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+SERVER INFORMATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Server:      The Land of Wolves 🐺
+Developer:   iBoss21 / The Lux Empire
+Website:     https://www.wolves.land
+Discord:     https://discord.gg/CrKcWdfd3A
+Store:       https://theluxempire.tebex.io
+
+© 2026 iBoss21 / The Lux Empire | wolves.land | All Rights Reserved
+═══════════════════════════════════════════════════════════════════════════════
+-->
 
 ### Overview
-LXRCore is an advanced, flexible, and lightweight framework designed for the RedM platform, which supports roleplaying servers based on *Red Dead Redemption 2*. The framework aims to provide an immersive, realistic roleplay experience that aligns with the historical and Western themes of the game. Developed under the name iBoss, LXRCore offers a streamlined approach to creating and managing roleplay servers with comprehensive features and customization options.
+LXRCore is an advanced, flexible, and lightweight framework designed for the RedM platform, which supports roleplaying servers based on *Red Dead Redemption 2*. The framework provides an immersive, realistic roleplay experience aligned with the historical and Western themes of the game. Developed by **iBoss21 / The Lux Empire** for **The Land of Wolves 🐺**, LXRCore offers a streamlined approach to creating and managing roleplay servers with comprehensive features and deep customization options.
 
 ### Features
-- **Roleplay-Ready Configuration:** LXRCore comes as a pre-configured, roleplay-ready setup, providing server owners with an out-of-the-box solution to start their roleplaying communities with minimal effort.
-- **High Performance:** Designed to be lightweight and efficient, ensuring smooth server operation even under high player loads.
-- **Advanced Customization:** Offers extensive configuration options to tailor the framework to the unique needs of the server, allowing for detailed adjustments in gameplay mechanics, rules, and settings.
-- **Historical Accuracy:** Built with a focus on maintaining the authentic feel of the late 19th-century American frontier, LXRCore supports features that enhance historical roleplay.
-- **Flexible Modular System:** Incorporates a modular approach, enabling server administrators to add, remove, or modify individual components as needed.
-- **Localization Support:** Multi-language support allows for international communities to use LXRCore, with options to customize client-side language settings for different players.
-- **Secure and Reliable:** Implements robust security measures to protect against common exploits and ensure server integrity.
+- **Roleplay-Ready Configuration:** LXRCore ships as a pre-configured, roleplay-ready setup — server owners can stand up a fully featured community with minimal effort.
+- **High Performance:** Lightweight and efficient; designed to handle 300+ concurrent players with minimal server overhead.
+- **Advanced Customization:** Extensive configuration options for gameplay mechanics, economy, rules, and server settings.
+- **Historical Accuracy:** Built around the authentic feel of the late 19th-century American frontier, with support for deep historical roleplay.
+- **Flexible Modular System:** Drop-in modules (`lxr-hunting`, `lxr-farming`, `lxr-delivery`, etc.) let administrators add, remove, or swap components at will.
+- **Localization Support:** Multi-language support with dynamic variable injection for international communities.
+- **Secure and Reliable:** Built-in validation, anti-exploit logic, and resource-name protection guards against common attack vectors.
+- **Multi-Framework:** First-class support for LXR-Core, RSG-Core, VORP Core, RedEM:RP, QBR-Core, QR-Core, and Standalone fallback.
 
 ### Development and Ownership
-LXRCore is developed by iBoss under the company LIKE A KING INC., which also owns the rights to the framework. The framework is continually updated and maintained, with the goal of providing cutting-edge features for the RedM roleplaying community.
 
-- **Developer:** iBoss
-- **Owner:** LIKE A KING INC.
-- **Official GitHub:** [https://github.com/LXRCore](https://github.com/LXRCore)
-- **Website:** [http://lxrcore.likeaking.pro/](http://lxrcore.likeaking.pro/)
-- **Company Website:** [www.likeaking.pro](http://www.likeaking.pro)
+LXRCore is developed and maintained by **iBoss21** under **The Lux Empire**, powering *The Land of Wolves* RedM server.
 
-### Testing and Promotion
-LXRCore will be tested on *The Land of Wolves* RedM server, which will serve as a demonstration of its capabilities in a live environment. The framework will be promoted as:
-- **A pre-made RedM server:** A roleplay-ready installation server for new and experienced server owners.
-- **Paid Version:** A paid version will be available for purchase, offering additional features, exclusive content, and premium support. This version will be sold through Tebex and the official LXRCore website.
+| | |
+|---|---|
+| **Developer** | iBoss21 / The Lux Empire |
+| **Official GitHub** | [https://github.com/LXRCore](https://github.com/LXRCore) |
+| **Website** | [https://www.wolves.land](https://www.wolves.land) |
+| **Discord** | [https://discord.gg/CrKcWdfd3A](https://discord.gg/CrKcWdfd3A) |
+| **Store** | [https://theluxempire.tebex.io](https://theluxempire.tebex.io) |
 
-### Planned Features
-- **Extended Roleplay Mechanics:** Expansions to include more jobs, crafting systems, and unique roleplay scenarios.
-- **Enhanced Security Features:** Additional security modules to protect servers from exploits and ensure a safe environment for players.
-- **Community-Driven Updates:** Regular updates based on feedback from server owners and players to continuously improve the framework.
-- **Integration with Popular Scripts:** Compatibility with existing popular RedM scripts for a smoother server setup.
+### Live Server — The Land of Wolves 🐺
+
+LXRCore is battle-tested on *The Land of Wolves*, a whitelisted, serious hardcore RedM roleplay server.
+
+- **Tagline:** Georgian RP 🇬🇪 | მგლების მიწა — History Lives Here!
+- **Type:** Serious Hardcore Roleplay (Discord & Whitelisted)
+- **Server Listing:** [https://servers.redm.net/servers/detail/8gj7eb](https://servers.redm.net/servers/detail/8gj7eb)
+
+### Framework Priority
+
+| Priority | Framework | Status |
+|---|---|---|
+| 1 | LXR-Core | ✅ Primary |
+| 2 | RSG-Core | ✅ Primary |
+| 3 | VORP Core | ✅ Supported |
+| 4 | RedEM:RP | 🔵 Optional |
+| 5 | QBR-Core | 🔵 Optional |
+| 6 | QR-Core | 🔵 Optional |
+| 7 | Standalone | ⚪ Fallback |
+
+### Tebex Escrow Compliance
+
+All paid resources are developed to be fully **Tebex escrow compliant** and are sold through the official store at [https://theluxempire.tebex.io](https://theluxempire.tebex.io). Each resource enforces resource-name protection at runtime and follows the wolves.land codebase style.
 
 ### Getting Started
-To get started with LXRCore:
-1. Visit the official website to download the framework.
-2. Follow the installation guide provided in the documentation.
+
+```bash
+# Clone into your resources/ folder
+git clone https://github.com/lxrcore/lxrcore.git
+
+# Add to server.cfg
+ensure lxrcore
+```
+
+```lua
+-- Access the core in your scripts
+local LXRCore = exports['lxrcore']:GetCoreObject()
+```
+
+1. Visit [https://www.wolves.land](https://www.wolves.land) for downloads and documentation.
+2. Follow the installation guide provided in the docs.
 3. Configure the settings to fit the specific needs of your roleplay server.
 4. For advanced customization, explore the modular options and localization settings.
+5. Join [Discord](https://discord.gg/CrKcWdfd3A) for community support.
 
 ---
+
+> © 2026 iBoss21 / The Lux Empire | [wolves.land](https://www.wolves.land) | All Rights Reserved
