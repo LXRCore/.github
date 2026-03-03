@@ -1,5 +1,3 @@
----
-
 <!--
     ██╗     ██╗  ██╗██████╗        ██████╗ ██████╗ ██████╗ ███████╗
     ██║     ╚██╗██╔╝██╔══██╗      ██╔════╝██╔═══██╗██╔══██╗██╔════╝
@@ -64,7 +62,7 @@ Built by **iBoss21 / The Lux Empire**, LXRCore blends **performance, modularity,
 🏗️ **Modular Design** – Drop-in modules: `lxr-hunting`, `lxr-farming`, `lxr-delivery`, `lxr-proploot`, and more.
 ⚡ **Optimized Performance** – Handles 300+ players with minimal server overhead and client FPS impact.
 🔌 **Clean API** – Simple and consistent exports for all developers, across all supported frameworks.
-�� **Inventory + Items** – Metadata support, usable items, add/remove with callbacks.
+📦 **Inventory + Items** – Metadata support, usable items, add/remove with callbacks.
 📢 **Notifications** – Unified notify system for client and server.
 🌍 **Localization** – Multi-language support with dynamic variable injection.
 🔒 **Secure & Reliable** – Built-in validation, anti-exploit logic, and runtime resource-name protection.
