@@ -1,90 +1,134 @@
-## LXRCore RedM Framework — Knowledge File
-
 <!--
-═══════════════════════════════════════════════════════════════════════════════
-SERVER INFORMATION
-═══════════════════════════════════════════════════════════════════════════════
+    ██╗     ██╗  ██╗██████╗        ██████╗ ██████╗ ██████╗ ███████╗
+    ██║     ╚██╗██╔╝██╔══██╗      ██╔════╝██╔═══██╗██╔══██╗██╔════╝
+    ██║      ╚███╔╝ ██████╔╝█████╗██║     ██║   ██║██████╔╝█████╗
+    ██║      ██╔██╗ ██╔══██╗╚════╝██║     ██║   ██║██╔══██╗██╔══╝
+    ███████╗██╔╝ ██╗██║  ██║      ╚██████╗╚██████╔╝██║  ██║███████╗
+    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝       ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 
-Server:      The Land of Wolves 🐺
-Developer:   iBoss21 / The Lux Empire
-Website:     https://www.wolves.land
-Discord:     https://discord.gg/CrKcWdfd3A
-Store:       https://theluxempire.tebex.io
-
-© 2026 iBoss21 / The Lux Empire | wolves.land | All Rights Reserved
-═══════════════════════════════════════════════════════════════════════════════
+    LXRCore — Lux Empire eXperience RedM Core
+    Developer: iBoss21 / LXRCore · https://www.lxrcore.com
+    © 2026 iBoss21 / LXRCore | lxrcore.com | All Rights Reserved
 -->
 
-### Overview
-LXRCore is an advanced, flexible, and lightweight framework designed for the RedM platform, which supports roleplaying servers based on *Red Dead Redemption 2*. The framework provides an immersive, realistic roleplay experience aligned with the historical and Western themes of the game. Developed by **iBoss21 / The Lux Empire** for **The Land of Wolves 🐺**, LXRCore offers a streamlined approach to creating and managing roleplay servers with comprehensive features and deep customization options.
+<img src="https://raw.githubusercontent.com/LXRCore/.github/main/profile/lxrcore-logo.png" alt="LXRCore" width="72" align="left" style="margin-right:12px">
 
-### Features
-- **Roleplay-Ready Configuration:** LXRCore ships as a pre-configured, roleplay-ready setup — server owners can stand up a fully featured community with minimal effort.
-- **High Performance:** Lightweight and efficient; designed to handle 300+ concurrent players with minimal server overhead.
-- **Advanced Customization:** Extensive configuration options for gameplay mechanics, economy, rules, and server settings.
-- **Historical Accuracy:** Built around the authentic feel of the late 19th-century American frontier, with support for deep historical roleplay.
-- **Flexible Modular System:** Drop-in modules (`lxr-hunting`, `lxr-farming`, `lxr-delivery`, etc.) let administrators add, remove, or swap components at will.
-- **Localization Support:** Multi-language support with dynamic variable injection for international communities.
-- **Secure and Reliable:** Built-in validation, anti-exploit logic, and resource-name protection guards against common attack vectors.
-- **Multi-Framework:** First-class support for LXR-Core, RSG-Core, VORP Core, RedEM:RP, QBR-Core, QR-Core, and Standalone fallback.
+# LXRCore — a RedM framework that runs your existing scripts
 
-### Development and Ownership
+![Core](https://img.shields.io/badge/lxr--core-v3.0.0-c4a574)
+![Platform](https://img.shields.io/badge/platform-RedM_%C2%B7_RDR3-100e0c)
+![Lua](https://img.shields.io/badge/Lua-5.4-blue)
+![Adapters](https://img.shields.io/badge/runs-RSG_%7C_VORP_%7C_QBR_resources-a83a3a)
+![Tests](https://img.shields.io/badge/core_tests-69_passing-brightgreen)
+![License](https://img.shields.io/badge/license-LXRCore-1a1512)
 
-LXRCore is developed and maintained by **iBoss21** under **The Lux Empire**, powering *The Land of Wolves* RedM server.
+**LXRCore** is the framework behind [The Land of Wolves](https://discord.gg/wolvesland),
+built by **iBoss21**. Version 3 is an independent core written for RedM —
+player and character lifecycle, accounts with a ledger, jobs, gangs,
+permissions, callbacks, usable items and an inventory abstraction — plus
+**compatibility adapters** so resources written for **RSG-Core**, **VORP**
+and **QBR** run on one server without edits.
 
-| | |
-|---|---|
-| **Developer** | iBoss21 / The Lux Empire |
-| **Official GitHub** | [https://github.com/LXRCore](https://github.com/LXRCore) |
-| **Website** | [https://www.wolves.land](https://www.wolves.land) |
-| **Discord** | [https://discord.gg/CrKcWdfd3A](https://discord.gg/CrKcWdfd3A) |
-| **Store** | [https://theluxempire.tebex.io](https://theluxempire.tebex.io) |
-
-### Live Server — The Land of Wolves 🐺
-
-LXRCore is battle-tested on *The Land of Wolves*, a whitelisted, serious hardcore RedM roleplay server.
-
-- **Tagline:** Georgian RP 🇬🇪 | მგლების მიწა — History Lives Here!
-- **Type:** Serious Hardcore Roleplay (Discord & Whitelisted)
-- **Server Listing:** [https://servers.redm.net/servers/detail/8gj7eb](https://servers.redm.net/servers/detail/8gj7eb)
-
-### Framework Priority
-
-| Priority | Framework | Status |
-|---|---|---|
-| 1 | LXR-Core | ✅ Primary |
-| 2 | RSG-Core | ✅ Primary |
-| 3 | VORP Core | ✅ Supported |
-| 4 | RedEM:RP | 🔵 Optional |
-| 5 | QBR-Core | 🔵 Optional |
-| 6 | QR-Core | 🔵 Optional |
-| 7 | Standalone | ⚪ Fallback |
-
-### Tebex Escrow Compliance
-
-All paid resources are developed to be fully **Tebex escrow compliant** and are sold through the official store at [https://theluxempire.tebex.io](https://theluxempire.tebex.io). Each resource enforces resource-name protection at runtime and follows the wolves.land codebase style.
-
-### Getting Started
-
-```bash
-# Clone into your resources/ folder
-git clone https://github.com/lxrcore/lxrcore.git
-
-# Add to server.cfg
-ensure lxrcore
-```
-
-```lua
--- Access the core in your scripts
-local LXRCore = exports['lxrcore']:GetCoreObject()
-```
-
-1. Visit [https://www.wolves.land](https://www.wolves.land) for downloads and documentation.
-2. Follow the installation guide provided in the docs.
-3. Configure the settings to fit the specific needs of your roleplay server.
-4. For advanced customization, explore the modular options and localization settings.
-5. Join [Discord](https://discord.gg/CrKcWdfd3A) for community support.
+> Write once, run across RedM frameworks. Keep the scripts you already own.
 
 ---
 
-> © 2026 iBoss21 / The Lux Empire | [wolves.land](https://www.wolves.land) | All Rights Reserved
+## Why LXRCore v3
+
+| | What that means on your server |
+|---|---|
+| 🔁 **Compatibility adapters** | `exports['rsg-core']:GetCoreObject()`, `exports.vorp_core:GetCore()` and `exports['qbr-core']:GetPlayer()` all resolve to LXRCore through small shim resources. RSG `server.cfg` principals keep working. |
+| 🔒 **Server authority** | No client event can add money, items or XP. Client metadata is whitelisted. Callback responses are matched to the requesting player. Every failed validation is logged as an exploit attempt. |
+| 💰 **Traceable economy** | Every account mutation goes through one engine (validated amounts, floors, caps, atomic transfers) and lands in `lxr_ledger`. |
+| 🧵 **No race conditions** | Login / character switch / delete are serialised per player; saves are dirty-tracked and batched; disconnects save synchronously. |
+| 🗄️ **Migrations, not SQL dumps** | Checksummed migration runner; resources register their own tables; RSG and VORP databases import with provided scripts. |
+| ⚡ **0.00 ms idle client** | State-bag login flag, event-driven data, adaptive prompt thread, native RedM feed notifications. |
+| 🧪 **Tested before it ships** | The core runs 69 offline tests through an FX runtime shim in CI. Anything not run in-game is labelled **NOT TESTED** in the docs — never "works". |
+| 🌍 **Localised** | English canonical, Georgian mirrored 1:1; add a file, change one config line. |
+
+## Quick start
+
+```cfg
+set onesync on
+set mysql_connection_string "mysql://user:pass@127.0.0.1/lxrcore?charset=utf8mb4"
+
+ensure oxmysql
+ensure lxr-core
+# ensure rsg-core          # bridge — only if the real rsg-core is NOT installed
+# ensure vorp_core         # bridge — only if the real vorp_core is NOT installed
+
+add_principal identifier.license:XXXX lxrcore.god
+```
+
+The database migrates itself on first start. For a clean server use the
+[txAdmin recipe](https://github.com/LXRCore/txAdminRecipe).
+
+## Developer API (v3)
+
+```lua
+local LXRCore = exports['lxr-core']:GetCoreObject()
+
+-- server: usable item, money, callbacks
+LXRCore.Functions.CreateUseableItem('bread', function(source, item)
+    local Player = LXRCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem('bread', 1, item.slot, 'consumed') then
+        TriggerClientEvent('LXRCore:Notify', source, 'You ate some bread', 'success')
+    end
+end)
+
+LXRCore.Callback.Register('shop:buy', function(source, name, amount)
+    local Player = LXRCore.Functions.GetPlayer(source)
+    if not Player.Functions.RemoveMoney('cash', 2 * amount, 'shop:' .. name) then
+        return false, 'not_enough_money'
+    end
+    return Player.Functions.AddItem(name, amount, nil, nil, 'shop')
+end)
+
+-- client
+local ok, err = LXRCore.Callback.Await('shop:buy', 'bread', 2)
+LXRCore.Functions.Notify(ok and 'Bought bread' or err, ok and 'success' or 'error')
+```
+
+Legacy calls (`exports['lxr-core']:GetPlayer(src)`, `:CreateCallback`,
+`:Notify`, `:createPrompt`, …) keep working on the same core.
+
+## Repositories
+
+| Repository | Role | Status |
+|---|---|---|
+| [`lxr-core`](https://github.com/LXRCore/lxr-core) | framework core, adapters, bridges, migrations, tests | **v3 rewrite** |
+| [`txAdminRecipe`](https://github.com/LXRCore/txAdminRecipe) | clean-server install recipe | being rebuilt for v3 |
+| [`Docs`](https://github.com/LXRCore/Docs) | ecosystem documentation | being rebuilt for v3 |
+| `lxr-inventory`, `lxr-multicharacter`, `lxr-spawn`, `lxr-hud`, `lxr-banking`, … | official resources | audit in progress (legacy API still served by the core) |
+| `connectqueue`, `progressbar`, `PolyZone`, `menuv`, `mediccamp`, `safecracker` | standalone dependencies | maintained forks |
+
+## Framework support
+
+| System | Native | Adapter | In-game tested |
+|---|---:|---:|---:|
+| LXRCore v3 | ✅ | — | not yet |
+| RSG-Core resources | — | ✅ events, aces, `GetCoreObject` shim | not yet |
+| VORP resources | — | ✅ `GetCore` facade, callbacks, notifications; ⚠️ item subset of `vorp_inventory`, no weapon API | not yet |
+| QBR / LXR v1–v2 resources | — | ✅ full export surface | not yet |
+
+Details, including what is deliberately **not** emulated:
+[`lxr-core/docs/compatibility.md`](https://github.com/LXRCore/lxr-core/blob/main/docs/compatibility.md).
+
+## Contributing
+
+1. Fork, branch from `main` (`feat/…`, `fix/…`).
+2. Every server-side mutation validates its input; no per-frame client loops.
+3. New player-facing strings go in `locales/en.lua` **and** `locales/ka.lua`.
+4. Run `lua tests/run.lua` (core) — CI runs syntax, tests and luacheck.
+5. Open a pull request with a conventional commit title (`feat(core): …`).
+
+## Stay connected
+
+| | |
+|---|---|
+| 🌐 Website | [lxrcore.com](https://www.lxrcore.com) |
+| 🛠 Development Discord | [discord.gg/ZHMKVYyhBa](https://discord.gg/ZHMKVYyhBa) |
+| The Land of Wolves | [discord.gg/wolvesland](https://discord.gg/wolvesland) |
+| 👤 Developer | [github.com/iboss21](https://github.com/iboss21) |
+
+> © 2026 iBoss21 / LXRCore | [lxrcore.com](https://www.lxrcore.com) | All Rights Reserved
