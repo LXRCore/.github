@@ -6,12 +6,14 @@
     ███████╗██╔╝ ██╗██║  ██║      ╚██████╗╚██████╔╝██║  ██║███████╗
     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝       ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 
-    🐺 LXRCore — Lux Empire eXperience RedM Core
+    LXRCore — Lux Empire eXperience RedM Core
     Developer: iBoss21 / LXRCore · https://www.lxrcore.com
     © 2026 iBoss21 / LXRCore | lxrcore.com | All Rights Reserved
 -->
 
-# 🐺 LXRCore — a RedM framework that runs your existing scripts
+<img src="https://raw.githubusercontent.com/LXRCore/.github/main/profile/lxrcore-logo.png" alt="LXRCore" width="72" align="left" style="margin-right:12px">
+
+# LXRCore — a RedM framework that runs your existing scripts
 
 ![Core](https://img.shields.io/badge/lxr--core-v3.0.0-c4a574)
 ![Platform](https://img.shields.io/badge/platform-RedM_%C2%B7_RDR3-100e0c)
@@ -126,7 +128,7 @@ Details, including what is deliberately **not** emulated:
 |---|---|
 | 🌐 Website | [lxrcore.com](https://www.lxrcore.com) |
 | 🛠 Development Discord | [discord.gg/ZHMKVYyhBa](https://discord.gg/ZHMKVYyhBa) |
-| 🐺 The Land of Wolves | [discord.gg/wolvesland](https://discord.gg/wolvesland) |
+| The Land of Wolves | [discord.gg/wolvesland](https://discord.gg/wolvesland) |
 | 👤 Developer | [github.com/iboss21](https://github.com/iboss21) |
 
 > © 2026 iBoss21 / LXRCore | [lxrcore.com](https://www.lxrcore.com) | All Rights Reserved
