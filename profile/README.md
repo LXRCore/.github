@@ -103,11 +103,12 @@ local ok, err = LXR.RPC.Server('shop:buy', 'bread', 2)
 | 1 · the town | [`lxr-interact`](https://github.com/LXRCore/lxr-interact) · [`lxr-doors`](https://github.com/LXRCore/lxr-doors) · [`lxr-shops`](https://github.com/LXRCore/lxr-shops) · [`lxr-bank`](https://github.com/LXRCore/lxr-bank) · [`lxr-weather`](https://github.com/LXRCore/lxr-weather) | v3 |
 | 2 · the law | [`lxr-dispatch`](https://github.com/LXRCore/lxr-dispatch) · [`lxr-lawman`](https://github.com/LXRCore/lxr-lawman) · [`lxr-doctor`](https://github.com/LXRCore/lxr-doctor) · [`lxr-business`](https://github.com/LXRCore/lxr-business) · [`lxr-blindfold`](https://github.com/LXRCore/lxr-blindfold) · [`lxr-lasso`](https://github.com/LXRCore/lxr-lasso) · [`lxr-lockpick`](https://github.com/LXRCore/lxr-lockpick) · [`lxr-contraband`](https://github.com/LXRCore/lxr-contraband) | v3 |
 | 3 · the land | [`lxr-farming`](https://github.com/LXRCore/lxr-farming) · [`lxr-hunting`](https://github.com/LXRCore/lxr-hunting) · [`lxr-mining`](https://github.com/LXRCore/lxr-mining) · [`lxr-moonshine`](https://github.com/LXRCore/lxr-moonshine) · [`lxr-interiors`](https://github.com/LXRCore/lxr-interiors) | v3 |
-| 4 · staff | [`lxr-admin`](https://github.com/LXRCore/lxr-admin) · `lxr-scoreboard` · `lxr-anticheat` · `lxr-smallresources` | admin v3; the rest being rebuilt |
+| 4 · staff | [`lxr-admin`](https://github.com/LXRCore/lxr-admin) · [`lxr-census`](https://github.com/LXRCore/lxr-census) · [`lxr-warden`](https://github.com/LXRCore/lxr-warden) · [`lxr-frontier`](https://github.com/LXRCore/lxr-frontier) | v3 |
+| 5 · people | [`lxr-love`](https://github.com/LXRCore/lxr-love) | v3 |
 | install & docs | [`txAdminRecipe`](https://github.com/LXRCore/txAdminRecipe) · [`Docs`](https://github.com/LXRCore/Docs) | recipe current; docs being rewritten |
 
-Repositories marked *queued* still carry their earlier build behind a standard
-README until their v3 rebuild lands; they are not part of the recipe until then.
+Every tier is on v3 and in the recipe. `lxr-playerlimits` is archived: it
+was the extended-slot RedM build fork, not a resource.
 
 ## Contributing
 
