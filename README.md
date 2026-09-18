@@ -100,10 +100,10 @@ local ok, err = LXR.RPC.Server('shop:buy', 'bread', 2)
 |---|---|---|
 | 0 · core & kit | [`lxr-core`](https://github.com/LXRCore/lxr-core) · [`lxr-nui`](https://github.com/LXRCore/lxr-nui) · [`lxr-mapcolor`](https://github.com/LXRCore/lxr-mapcolor) | v3 |
 | 0 · engines | [`lxr-inventory`](https://github.com/LXRCore/lxr-inventory) · [`lxr-clothing`](https://github.com/LXRCore/lxr-clothing) · [`lxr-creator`](https://github.com/LXRCore/lxr-creator) · [`lxr-barber`](https://github.com/LXRCore/lxr-barber) · [`lxr-spawn`](https://github.com/LXRCore/lxr-spawn) · [`lxr-me`](https://github.com/LXRCore/lxr-me) · [`lxr-horses`](https://github.com/LXRCore/lxr-horses) · [`lxr-trains`](https://github.com/LXRCore/lxr-trains) · [`lxr-hud`](https://github.com/LXRCore/lxr-hud) · [`lxr-weapons`](https://github.com/LXRCore/lxr-weapons) | v3 |
-| 1 · the town | `lxr-interact` · `lxr-doorlock` · `lxr-shops` · `lxr-banking` · `lxr-weathersync` | being rebuilt on v3 |
-| 2 · the law & trades | `lxr-jobalerts` · `lxr-policejob` · `lxr-ambulancejob` · `lxr-management` · `lxr-blindfold` · `lxr-lasso` · `lxr-lockpick` · `lxr-contraband` | queued |
-| 3 · the land | `lxr-farming` · `lxr-mining` · `lxr-hunting` · `lxr-moonshine` · `lxr-interiors` | queued |
-| 4 · staff | `lxr-adminmenu` · `lxr-scoreboard` · `lxr-anticheat` · `lxr-smallresources` | queued |
+| 1 · the town | [`lxr-interact`](https://github.com/LXRCore/lxr-interact) · [`lxr-doors`](https://github.com/LXRCore/lxr-doors) · [`lxr-shops`](https://github.com/LXRCore/lxr-shops) · [`lxr-bank`](https://github.com/LXRCore/lxr-bank) · [`lxr-weather`](https://github.com/LXRCore/lxr-weather) | v3 |
+| 2 · the law | [`lxr-dispatch`](https://github.com/LXRCore/lxr-dispatch) · [`lxr-lawman`](https://github.com/LXRCore/lxr-lawman) · [`lxr-doctor`](https://github.com/LXRCore/lxr-doctor) · [`lxr-business`](https://github.com/LXRCore/lxr-business) · [`lxr-blindfold`](https://github.com/LXRCore/lxr-blindfold) · [`lxr-lasso`](https://github.com/LXRCore/lxr-lasso) · [`lxr-lockpick`](https://github.com/LXRCore/lxr-lockpick) · [`lxr-contraband`](https://github.com/LXRCore/lxr-contraband) | v3 |
+| 3 · the land | [`lxr-farming`](https://github.com/LXRCore/lxr-farming) · [`lxr-hunting`](https://github.com/LXRCore/lxr-hunting) · [`lxr-mining`](https://github.com/LXRCore/lxr-mining) · [`lxr-moonshine`](https://github.com/LXRCore/lxr-moonshine) · [`lxr-interiors`](https://github.com/LXRCore/lxr-interiors) | v3 |
+| 4 · staff | [`lxr-admin`](https://github.com/LXRCore/lxr-admin) · `lxr-scoreboard` · `lxr-anticheat` · `lxr-smallresources` | admin v3; the rest being rebuilt |
 | install & docs | [`txAdminRecipe`](https://github.com/LXRCore/txAdminRecipe) · [`Docs`](https://github.com/LXRCore/Docs) | recipe current; docs being rewritten |
 
 Repositories marked *queued* still carry their earlier build behind a standard
