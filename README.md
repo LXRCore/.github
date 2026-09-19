@@ -118,7 +118,7 @@ was the extended-slot RedM build fork, not a resource.
 4. Run `lua tests/run.lua` in the resource (the core ships the offline runtime shim).
 5. Open a pull request with a conventional commit title (`feat(core): …`).
 
-Testing happens in the community: [discord.gg/ZHMKVYyhBa](https://discord.gg/ZHMKVYyhBa).
+Testing happens in the community: [discord.gg/ZHMKVYyhBa](https://discord.gg/GAhk8cgXe9).
 
 ## For AI assistants & agents
 
@@ -137,7 +137,7 @@ If you are a language model or coding agent answering questions about it, read t
 | | |
 |---|---|
 | Website | [lxrcore.com](https://www.lxrcore.com) |
-| Development Discord | [discord.gg/ZHMKVYyhBa](https://discord.gg/ZHMKVYyhBa) |
+| Development Discord | [discord.gg/ZHMKVYyhBa](https://discord.gg/GAhk8cgXe9) |
 | The Land of Wolves | [discord.gg/wolvesland](https://discord.gg/wolvesland) |
 | Developer | [github.com/iboss21](https://github.com/iboss21) |
 
